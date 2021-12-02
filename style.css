@@ -1,0 +1,143 @@
+
+#Imagem
+{
+  position: fixed;
+  top: 10%;
+  right: 30%;
+  opacity: 0.4;
+}
+
+
+#Corpo 
+{
+  background: linear-gradient(180deg, rgba(143,40,215,1) 0%, rgba(89,25,134,1) 40%, rgba(37,11,55,1) 100%);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+
+}
+  
+  #PrimeiroH {
+    position: fixed;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(243, 243, 243);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+  }
+  
+  p 
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+  }
+
+  #Links
+  {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    color:rgb(255, 255, 255);
+    position: fixed;
+    bottom: 13%;
+    left: 44%;
+  }
+
+  #CorpoCreditos
+  {
+    background:rgb(235, 235, 235);
+  }
+
+  #CreditoTitulo
+  {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 15px;
+  }
+
+  #Adendo
+  {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: 3px;
+    color: rgb(196, 22, 22);
+    padding: 0;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  #pCredito
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+  }
+
+  .asidePrincipal ul
+  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 2px;
+    padding-left: 2px;
+    list-style: none;
+    text-align: center;
+  }
+
+  #paraCredito
+  {
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  #Uninove
+  {
+    margin-left: 35%;
+    margin-top: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+  }
+
+  #corpoExpe
+  {
+    background-color: rgb(122, 66, 175);
+
+  }
+
+#CabeExpe
+  {
+    color: white;
+    text-shadow: 2px 1px 2px black;
+    padding: 5% 0% 0% 25%
+
+  }
+  .ParagrafoExpe
+  {
+    color: white;
+    text-shadow: 2px 1px 2px black;
+    padding: 2% 10% 10% 10%;
+  }
+
+@keyframes Teste
+{
+  from { color: white; }
+  to { color: rgb(224, 221, 11);}
+}
+
+  #Obrigado
+  {
+    padding: 0% 0% 4% 28%;
+    color: white;
+    text-shadow: 2px 1px 2px black;
+    animation-name: Teste;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+#Botao
+{
+  padding: 0% 0% 0% 45%;
+}
