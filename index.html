@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = ./style.css />
+    <title>Projeto Faculdade</title>
+
+    <script VariavelReceber> 
+        var textoReceber = prompt("Qual o nome da porta?", "");
+        var imagem = "", iamagemDescricao = "", frase = "", link = "";
+        
+               switch(textoReceber)
+               {
+                   case "OBSERVA":
+                  imagem = "https://i.imgur.com/wGh5uOS.gif";
+                  imagemDescricao = "Cachorro";
+                  link = "https://wwww.google.com.br";
+                  frase = "Observações incessantes! Essas visões desconhecem a escuridão devido a ausência de repouso. As perspectivas infinitas!";
+                   break;
+       
+                   case "LOSANGO":
+                  imagem = "https://i.imgur.com/YCFT5ny.png";
+                 imagemDescricao = "Gatinho";
+                  link = "https://www.youtube.com.br";
+                  frase = "A abstrata forma geométrica deliberadamente inibe suas intenções. O que esperava detrás dela? Esperança? Glória? Conhecimento?"
+                   break;
+       
+                   case "SATURADA":
+                    imagem = "https://i.imgur.com/fJJMZSj.png";
+                    imagemDescricao = "Veado";
+                    link = "https://www.twitch.tv"
+                   frase = "Não permita que as sombras façam o que vierem a calhar, solte-se!";
+   
+                   break;
+       
+                   default: 
+                   alert("erro");
+                   frase = "Ansiedade é um inimigo!";
+                   break;
+               }
+           </script>
+
+</head>
+
+<body id = "Corpo">
+    <div id = "Imagem">
+        <script> 
+    // Mudando backgrounds e possivelmente a posição das imagens
+        var fundo, imagemMoldar, corFundo, fundoAcessorio, fundoRepetir, fundoTamanho, imagemPosicao, imagemTamanho, imagemTop, imagemRight;
+        fundo = document.getElementById("Corpo");
+        imagemMoldar = document.getElementById("Imagem");
+
+            switch(textoReceber)
+            {
+             case "OBSERVA": 
+                corFundo = "#333333";
+                fundoAcessorio = "fixed";
+                fundoRepetir = "no-repeat";
+                fundoTamanho = "auto";
+
+                imagemPosicao = "absolute";
+                imagemTop = "0%";
+                imagemRight = "16%";
+             break;
+
+             case "LOSANGO":
+                corFundo = "linear-gradient(0deg, rgba(65,65,65,1) 0%, rgba(40,40,40,1) 54%, rgba(13,13,13,1) 100%)";
+                fundoAcessorio = "fixed";
+                fundoRepetir = "no-repeat";
+                fundoTamanho = "auto";
+
+                imagemPosicao = "fixed";
+                imagemTop = "0%";
+                imagemRight = "0%";
+                imagemMoldar.style.backgroundSize = "100%";
+             break;
+
+             case "SATURADA":
+                 imagemPosicao = "absolute";
+                 imagemTop = "10%";
+                 imagemRight = "42%";
+
+             break;
+            }
+            // Inserção dos valores dentro dos casos com base na variável textoReceber (input)
+            fundo.style.background = corFundo;
+            fundo.style.backgroundAttachment = fundoAcessorio;
+            fundo.style.backgroundRepeat = fundoRepetir;
+            fundo.style.backgroundSize = fundoTamanho;
+
+            imagemMoldar.style.position = imagemPosicao;
+            imagemMoldar.style.right = imagemRight;
+            imagemMoldar.style.top = imagemTop;
+
+            //Inserção da frase, link da imagem e endereço com base no input
+            document.write("<img src=" + imagem + "alt=" + imagemDescricao + ">");
+         </script>
+        
+    </div>
+
+    <div id = "Texto">
+        <h1 id = "PrimeiroH"> 
+
+            <script ManipularFrases>
+                 document.write(frase);
+             </script>
+
+        </h1>
+     </div>
+    
+    <div id = "Links">
+     <aside>
+         <h2>
+            Informações extras!
+        <ul>
+            <li> <a href = "creditos.html"> Créditos </a> </li>
+            <li> <a href = "experiencia.html"> Experiência </a> </li>
+        </ul>
+     </aside>
+        </h2>
+    </div>
+
+</body>
+</html>
