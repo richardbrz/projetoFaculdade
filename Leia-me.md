@@ -10,4 +10,13 @@
   <p>
     Confesso que a falta de conhecimento referente servidores. A minha intenção era automizar a inserção de valores no site. Ou seja, o meu jogo levaria o valor da porta como <strong>string</strong> para o servidor e então, passar para o site, não havendo então a entrada de texto por parte do usuário.
   </p>
+  
+  <h2 align = "center"> Quem mais participou desse projeto? </h2>
+  <p> 
+    Infelizmente, apenas eu. Primeiro semestre, dificilmente encontramos colegas responsáveis, independente da intimidade. Optei por realizar sozinho para evitar cobranças alheias   e pelo fator de que eu conseguiria fazer no meu tempo, <strong> do meu jeito. </strong>
+    Esclareço que as imagens não pertencentes a mim foram creditadas na página "Créditos"! Logo, caso algum proprietário das imagens utilizadas não estejam satisfeito com o uso, peço para que entre em contato comigo para que eu realize a remoção e substituição.
+  </p>
  </div>
+ 
+ <h1 align = "center"> OBRIGADO POR TEREM JOGADO! </h1>
+ 
